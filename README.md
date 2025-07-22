@@ -1,15 +1,43 @@
-# Salary-Prediction-Project
+# 🧠 Employee Salary Prediction using Machine Learning
 
-# Dataset Used
-The StackOverflow 2023 survey of developers was used to train the model after extracting additional features and preprocessing all the used features.
-Link: https://insights.stackoverflow.com/survey
+This project aims to predict employee salaries based on various features such as education level, job title, experience, location, and skill set using supervised learning models. The system helps HR professionals and job seekers make data-driven decisions regarding fair compensation.
 
-# Run The Predictor
-1. Clone the repository and CD into the python files folder
-2. On the terminal, write streamlit run app.y
-3. Open the link shown in the terminal where the Web Application is visible
-4. Choose the inputs using the select boxes and the sliders
-5. Click on Predict Salary to see the predicted annual compensation in dollars based on the input.
+---
 
+## 📊 Problem Statement
 
+Salaries often vary significantly based on roles, regions, industries, and skillsets. Manual decisions may lead to bias or inefficiency. This project uses machine learning to build a regression model that predicts salaries using real-world data and helps understand the factors that influence pay.
 
+---
+
+## 🔧 Tech Stack
+
+- **Language:** Python 3.10+
+- **Libraries:**  
+  - Pandas, NumPy (data handling)  
+  - Matplotlib, Seaborn (visualization)  
+  - Scikit-learn (machine learning)  
+  - Streamlit (web interface)  
+
+---
+
+## ⚙️ Features
+
+- Data preprocessing and feature engineering  
+- Model training with Linear Regression, Random Forest, and XGBoost  
+- Performance evaluation using R², MAE, RMSE  
+- Interactive web app using Streamlit  
+- Predict salary for custom input values  
+
+---
+
+## 🧪 How to Run
+
+1. Clone the repository  
+```bash
+git clone https://github.com/Saurabhjk15/Employee-salary-prediction.git
+cd Employee-salary-prediction
+
+pip install -r requirements.txt
+
+streamlit run app.py
